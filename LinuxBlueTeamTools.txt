@@ -1,0 +1,9 @@
+preserve_hostname: false
+hostname: cloud-init-take3
+
+package_update: true
+
+packages:
+ - gcc
+ - make
+ - curl

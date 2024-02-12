@@ -1,0 +1,16 @@
+#cloud-config
+
+# Runs apt upgrade.
+package-upgrade: true
+
+# Installs packages required for blue teams.
+packages:
+  - tcpdump
+  - lsof
+  - top
+  - vim
+  - nano
+  - netcat
+  - gcc
+  - make
+  - curl
